@@ -1,0 +1,146 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.container{
+    width: 1918px;
+    height: 935px;
+    border: #DEDEDE solid 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu{
+    width: 150px;
+    height: 935px;
+    background: black;
+}
+
+#menu ul {
+    width: 150px;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 0;
+    
+}
+
+#menu ul li {
+    width: auto;
+    height: 44px;
+    padding-top: 14px;
+    padding-left: 16px;
+    border: 1px solid #5C5C5C;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #AAAAAA;
+    font-weight: bold;
+    display: block;
+}
+
+#menu ul li:hover {
+    background: #5C5C5C;
+}
+
+#main {
+    height: 935px;
+    width: 1768px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    width: 1768px;
+    height: 856px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer {
+    width: 1768px;
+    height: 79px;
+    border-top: 1px solid #DEDEDE;
+}
+
+#footer_content {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3E3E3E;
+    font-weight: 400;
+    padding: 30px 129px;
+}
+
+#logo {
+    width: 310px;
+    height: 122px;
+    padding: 20px 729px 30px;
+}
+
+#content_1 {
+    width: 1510px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EFEFEF;
+    text-align: center;
+}
+
+#content_1_title {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 38px;
+    font-weight: 700;
+}
+
+#content_1_text {
+    width: 972px;
+    height: 95px;
+    padding-top: 2px;
+    font-weight: 400;
+}
+
+#content_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1510px;
+    height: 252px;
+    padding-top: 40px;
+}
+#item {
+    width: 470px;
+    height: 252px;
+}
+
+#img {
+    width: 128px;
+    height: 128px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#item_content2 {
+    padding-top: 18px;
+}
+
+#text_content2 {
+    text-align: center;
+    line-height: 18.75px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    text-align: left;
+}
+
+#content_chill {
+    display: flex;
+    flex-direction: row;
+}
